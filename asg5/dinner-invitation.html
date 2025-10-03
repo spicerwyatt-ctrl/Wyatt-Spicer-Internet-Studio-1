@@ -5,12 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Celebrity Dinner Invitation</title>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
 </head>
 
 
-	<h1>Guests of Honor</h1>
-
-<link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
 
 <style>
 	body {
@@ -79,6 +77,7 @@
 <body>
 <div id="logo">Celebrity Dinner Invitation</div>
 <article>
+<h1>Guests of Honor</h1>
 <h1>A Feast Fit For Legends</h1>
 <h1>Taylor Swift</h1>
 	<p>About Taylor</p>
@@ -87,14 +86,14 @@
 <h1>Jeff Bridges</h1>
 	<p>About Jeff</p>
 <h2>RSVP Form</h2>
-<p></p>
 <p class="note"><strong>NOTE:</strong> RSVPs ARE MANDATORY </p>
 <h3>Name?</h3>
-<p>INSERT NAME BOX</p>
+<p><input type="text" name="guest-name" placeholder="Enter your name"></p>
 <h3>Will you be bringing a guest?</h3>
-<p>INSERT YES/NO RADIO</p>
+<p><label><input type="radio" name="bringing-guest" value="yes"> Yes</label>
+<label><input type="radio" name="bringing-guest" value="no"> No</label></p>
 <h3>Any Dietary Restrictions?</h3>
-<p>INSERT TEXT SUBMISSION AREA</p>
+<p><textarea name="dietary-restrictions" rows="4" cols="40" placeholder="Let us know!"></textarea></p>
 </article>
 </body>
 </html>
