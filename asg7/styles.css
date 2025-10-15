@@ -125,9 +125,9 @@ h1 {
 h2 {
  font-size: 1.5em;
  font-family: 'Berkshire Swash', Arial, Helvetica, sans-serif;
- color: rgb(#542344);
+ color: #542344;
  border-top: 2px dotted rgb(141,165,22);
- border-bottom: 2px dotted rgb(#808080);
+ border-bottom: 2px dotted #808080;
  padding-top: 5px;
  padding-bottom: 5px;
  margin: 15px 0 5px 0;
@@ -138,10 +138,10 @@ h2 {
  width: 30%;
  float: right;
  margin: 10px;
- background-color: rgb(#EBF5EE);
+ background-color: #EBF5EE;
  padding: 10px 20px; 
- border: 1px dotted rgb(#808080); 
- border-top: 20px solid rgb(#542344);
+ border: 1px dotted #808080; 
+ border-top: 20px solid #542344;
  border-radius: 10px;
  box-shadow: 5px 5px 10px rgba(0,0,0,.5);
 }
