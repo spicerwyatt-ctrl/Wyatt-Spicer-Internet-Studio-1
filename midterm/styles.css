@@ -67,13 +67,21 @@ table {
   font-weight: 400;
   src: url('fonts/black-han-sans-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+/* amiko-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/amiko-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
 h1, h2, h3 {
   font-family: 'Berkshire Swash';
 }
 
 p, ul {
-  font-family: 'Biryani';
+  font-family: 'Amiko';
 }
 
 body {
