@@ -192,11 +192,11 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: warp;
+	flex-wrap: wrap;
 	gap: 10px;
-	background-color: 006D77;
+	background-color: #006D77;
 	padding: 10px 0;
-	border-bottom: 3px solid #83C5BE
+	border-bottom: 3px solid #83C5BE;
 }
 
 .nav li {
