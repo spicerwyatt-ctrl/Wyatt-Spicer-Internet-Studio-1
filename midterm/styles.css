@@ -222,5 +222,6 @@ img {
 .nav li a:hover {
   background-color: #83C5BE;
   color: #102A31;
-  border-color: #E29578;  
+  border-color: #E29578;
+  transform: translateY(-2px);
 } 
