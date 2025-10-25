@@ -1,1 +1,128 @@
+ Insert all your glorious CSS styles below! */
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.2;
+}
+ol { 
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+ul {
+  padding-left: 1.4em;
+  list-style: square;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} 
+/* end reset browser styles */
 
+
+ @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/abril-fatface-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alan Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/alan-sans-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* berkshire-swash-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Berkshire Swash';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/berkshire-swash-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/biryani-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* black-han-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/black-han-sans-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+h1, h2, h3 {
+  font-family: 'Berkshire Swash';
+}
+
+p, ul {
+  font-family: 'Biryani';
+}
+
+body {
+  background-color: rgb(255,255,255);
+  border: 3px solid rgb(75,75,75);
+  box-shadow: 0 0 15px 5px rgba(44,82,100,.75);
+  max-width: 760px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+h1 {
+ font-size: 2.75em;
+ font-family: 'Biryani', "Biryani", Times, serif;
+ font-weight: strong;
+ text-align:center;
+ letter-spacing: 1px;
+ color: #575A4B;
+ text-transform: uppercase;
+ background-color: #A89B9D;
+ padding: 5px 15px 2px 15px;
+ margin: 0 -15px 20px -15px;
+}
+h2 {
+ font-size: 1.5em;
+ font-family: 'Berkshire Swash', Arial, Helvetica, sans-serif;
+ color: #542344;
+ border-top: 2px dotted rgb(141,165,22);
+ border-bottom: 2px dotted #808080;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin: 15px 0 5px 0;
+ overflow: hidden;
+}
+
+.sidebar {
+ width: 30%;
+ float: right;
+ margin: 10px;
+ background-color: #EBF5EE;
+ padding: 10px 20px; 
+ border: 1px dotted #808080; 
+ border-top: 20px solid #542344;
+ border-radius: 10px;
+ box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+.sidebar h2 {
+ border: none;
+ margin-top: 0;
+ padding: 0;
+}
