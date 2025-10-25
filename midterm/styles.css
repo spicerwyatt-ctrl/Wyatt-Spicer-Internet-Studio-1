@@ -118,6 +118,12 @@ h2 {
  overflow: hidden;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .sidebar {
  width: 30%;
  float: right;
