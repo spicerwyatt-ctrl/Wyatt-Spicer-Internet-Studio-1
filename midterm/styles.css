@@ -134,3 +134,28 @@ h2 {
  margin-top: 0;
  padding: 0;
 }
+
+.note {
+		color: #222;
+		border: 2px solid #83c5be;
+		background-color: #ffddd2;
+		margin-top: 25px;
+		margin-bottom: 35px;
+		padding: 20px;
+		border-radius: 8px;
+	}
+
+	.note strong {
+		color: #002A32;
+	}
+
+	article {
+		max-width: 760px;
+		margin: 0 auto;
+		border: 2px solid #83c5be;
+		background-color: rgba(226, 149, 120, 0.8);
+		margin-top: 25px;
+		margin-bottom: 35px;
+		padding: 20px;
+		border-radius: 8px;
+	}
