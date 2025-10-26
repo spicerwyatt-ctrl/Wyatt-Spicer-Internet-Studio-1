@@ -83,6 +83,7 @@ html {
   background-repeat: repeat;
   background-size: 100px 100px;
   background-color: #EDF6F9;
+  border-radius: 10px;
 }
 
 h1, h2, h3 {
