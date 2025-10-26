@@ -69,6 +69,14 @@ table {
   font-weight: 400;
   src: url('fonts/boldonse-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+/* changa-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Changa One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/changa-one-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
 .berkshire-swash-regular {
   font-family: "Berkshire Swash", serif;
@@ -107,7 +115,7 @@ body {
 
 h1 {
  font-size: 2.75em;
- font-family: 'Biryani', "Biryani", Times, serif;
+ font-family: 'Changa One', "Changa One", Times, serif;
  font-weight: strong;
  text-align:center;
  letter-spacing: 1px;
