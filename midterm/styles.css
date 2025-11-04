@@ -127,7 +127,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: bottom;
-	animation: slideWave2 3s ease-in-out 1 backwards;
+	animation: slideWave2 5s ease-in-out 1 backwards;
 }
 
 h3 {
