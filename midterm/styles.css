@@ -94,11 +94,12 @@ html {
 	bottom: 0;
 	right: 0;
 	left: 0;
+	z-index: 0;
 	background-color: #83C5BE;
 	background-image: url("images/treestile.png");
 	background-repeat: repeat;
 	background-size: 100px 100px;
-	animation: apinTiles 10s linear infinite;
+	animation: spinTiles 10s linear infinite;
 	transform-origin: center center;
 }
 
@@ -276,6 +277,7 @@ article {
 	}
 	to {
 		transform: rotate(360deg);
+	}
 }
 
 		
