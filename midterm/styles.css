@@ -296,7 +296,7 @@ article {
 @keyframes slideWave {
 	from {
 		transform: translateX(3500px);
-		opacity: 0;
+		opacity: .5;
 	}
 	to {
 		transform: translateX(-1800px);
