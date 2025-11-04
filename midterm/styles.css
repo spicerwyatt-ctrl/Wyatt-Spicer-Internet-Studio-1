@@ -113,7 +113,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: bottom;
-	animation: slideWave 3s ease-in-out 1 forwards;
+	animation: slideWave 3s ease-in-out 1 backwards;
 }
 
 h3 {
@@ -296,11 +296,11 @@ article {
 @keyframes slideWave {
 	from {
 		transform: translateX(0);
-		opacity: 1;
+		opacity: .95;
 	}
 	to {
 		transform: translateX(1800px);
-		opacity: 0;
+		opacity: .5;
 	}
 }
 
