@@ -295,11 +295,11 @@ article {
 
 @keyframes slideWave {
 	from {
-		transform: translateX(0);
+		transform: translateX(2600px);
 		opacity: .95;
 	}
 	to {
-		transform: translateX(1800px);
+		transform: translateX(0);
 		opacity: .5;
 	}
 }
