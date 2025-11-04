@@ -120,8 +120,8 @@ html {
 	position: fixed;
 	bottom: -170;
 	right: 2800px;
-	width: 2400px;
-	height: 1400px;
+	width: 2160px;
+	height: 1260px;
 	z-index: 100;
 	background-image: url("images/wave.png");
 	background-repeat: no-repeat;
