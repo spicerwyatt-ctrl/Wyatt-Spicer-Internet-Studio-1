@@ -106,8 +106,8 @@ html {
 	position: fixed;
 	bottom: 0;
 	left: -1800px;
-	width: 1600px;
-	height: 800px;
+	width: 2400px;
+	height: 1200px;
 	z-index: 100;
 	background-image: url("images/waveslide.png");
 	background-repeat: no-repeat;
@@ -296,7 +296,7 @@ article {
 @keyframes slideWave {
 	from {
 		transform: translateX(3500px);
-		opacity: .5;
+		opacity: .8;
 	}
 	to {
 		transform: translateX(-1800px);
