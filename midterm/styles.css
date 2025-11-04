@@ -104,7 +104,7 @@ html {
 
 #wave {
 	position: fixed;
-	bottom: -170px;
+	bottom: -170;
 	left: -1800px;
 	width: 2400px;
 	height: 1400px;
@@ -118,8 +118,8 @@ html {
 
 #wave2 {
 	position: fixed;
-	bottom: -170px;
-	right: -1800px;
+	bottom: -170;
+	right: 2800px;
 	width: 2400px;
 	height: 1400px;
 	z-index: 100;
@@ -313,7 +313,7 @@ article {
 		opacity: .8;
 	}
 	to {
-		transform: translateX(3500px);
+		transform: translateX(-3500px);
 		opacity: 1;
 	}
 }
@@ -324,7 +324,7 @@ article {
 		opacity: .8;
 	}
 	to {
-		transform: translateX(-3500px);
+		transform: translateX(3500px);
 		opacity: 1;
 	}
 }
