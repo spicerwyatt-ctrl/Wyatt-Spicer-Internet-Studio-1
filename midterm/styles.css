@@ -257,20 +257,6 @@ article {
 	text-align: left;
 }
 
-@-webkit-keyframes logo {
-	from {
-		-webkit-transform: rotate(0) scale(.5);
-		left: 120%;
-		}
-	50% {
-		-webkit-transform: rotate(-720deg) scale(.5);
-		left: 0;
-		}
-	to {
-		-webkit-transform: rotate(0) scale(1);
-		}
-}
-
 @keyframes crawlTiles {
 	from {
 		background-position: 0 0;
