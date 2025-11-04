@@ -300,7 +300,7 @@ article {
 	}
 	to {
 		transform: translateX(-1800px);
-		opacity: .5;
+		opacity: 0;
 	}
 }
 
