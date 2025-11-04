@@ -309,7 +309,7 @@ article {
 
 @keyframes slideWave {
 	from {
-		transform: translateX(3500px);
+		transform: translateX(0);
 		opacity: .8;
 	}
 	to {
@@ -320,7 +320,7 @@ article {
 
 @keyframes slideWave2 {
 	from {
-		transform: translateX(-1800px);
+		transform: translateX(0);
 		opacity: .8;
 	}
 	to {
