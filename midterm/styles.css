@@ -309,18 +309,18 @@ article {
 
 @keyframes slideWave {
 	from {
-		transform: translateX(0);
+		transform: translateX(3500px);
 		opacity: .8;
 	}
 	to {
-		transform: translateX(-3500px);
+		transform: translateX(-1800px);
 		opacity: 1;
 	}
 }
 
 @keyframes slideWave2 {
 	from {
-		transform: translateX(0);
+		transform: translateX(-1800px);
 		opacity: .8;
 	}
 	to {
