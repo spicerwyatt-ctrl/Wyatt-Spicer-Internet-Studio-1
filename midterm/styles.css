@@ -120,14 +120,14 @@ html {
 	position: fixed;
 	bottom: -170;
 	right: 2800px;
-	width: 2400px;
-	height: 1400px;
+	width: 1800px;
+	height: 1000px;
 	z-index: 100;
 	background-image: url("images/wave.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: bottom;
-	animation: slideWave2 5s ease-in-out 1 backwards;
+	animation: slideWave2 3s ease-in-out 1 backwards;
 }
 
 h3 {
@@ -320,11 +320,11 @@ article {
 
 @keyframes slideWave2 {
 	from {
-		transform: translateX(-3500px);
+		transform: translateX(-1800px);
 		opacity: .8;
 	}
 	to {
-		transform: translateX(1800px);
+		transform: translateX(3500px);
 		opacity: 1;
 	}
 }
