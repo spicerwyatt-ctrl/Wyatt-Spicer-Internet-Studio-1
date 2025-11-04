@@ -324,7 +324,7 @@ article {
 		opacity: .8;
 	}
 	to {
-		transform: translateX(3500px);
+		transform: translateX(5500px);
 		opacity: 1;
 	}
 }
