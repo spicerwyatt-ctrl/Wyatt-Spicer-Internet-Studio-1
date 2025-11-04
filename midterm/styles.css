@@ -276,7 +276,7 @@ article {
 		background-position: 0 0;
 	}
 	to {
-		background-position: 0 100px;
+		background-position: 100px 0;
 	}
 }
 
