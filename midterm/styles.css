@@ -116,6 +116,20 @@ html {
 	animation: slideWave 5s ease-in-out 1 forwards;
 }
 
+#wave2 {
+	position: fixed;
+	bottom: -170;
+	left: 1800px;
+	width: 2400px;
+	height: 1400px;
+	z-index: 100;
+	background-image: url("images/wave.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom;
+	animation: slideWave2 5s ease-in-out 1 backwards;
+}
+
 h3 {
 	font-family: "Berkshire Swash";
 }
@@ -300,6 +314,17 @@ article {
 	}
 	to {
 		transform: translateX(-1800px);
+		opacity: 1;
+	}
+}
+
+@keyframes slideWave2 {
+	from {
+		transform: translateX(-1800px);
+		opacity: .8;
+	}
+	to {
+		transform: translateX(3500px);
 		opacity: 1;
 	}
 }
