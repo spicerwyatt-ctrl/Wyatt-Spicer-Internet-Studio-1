@@ -104,7 +104,7 @@ html {
 
 #wave {
 	position: fixed;
-	bottom: 0;
+	bottom: -150;
 	left: -1800px;
 	width: 2400px;
 	height: 1200px;
