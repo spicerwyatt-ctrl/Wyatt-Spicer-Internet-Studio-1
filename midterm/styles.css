@@ -320,11 +320,11 @@ article {
 
 @keyframes slideWave2 {
 	from {
-		transform: translateX(-1800px);
+		transform: translateX(-3500px);
 		opacity: .8;
 	}
 	to {
-		transform: translateX(5500px);
+		transform: translateX(1800px);
 		opacity: 1;
 	}
 }
