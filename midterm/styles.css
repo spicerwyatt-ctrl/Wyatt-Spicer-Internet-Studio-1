@@ -105,7 +105,7 @@ html {
 #wave {
 	position: fixed;
 	bottom: 0;
-	left: -800px;
+	left: -1800px;
 	width: 1600px;
 	height: 800px;
 	z-index: 100;
@@ -113,7 +113,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: bottom;
-	animation: slideWave 3s ease-in-out 1 backwards;
+	animation: slideWave 3s ease-in-out 1 forwards;
 }
 
 h3 {
