@@ -299,7 +299,7 @@ article {
 		opacity: .95;
 	}
 	to {
-		transform: translateX(0);
+		transform: translateX(-1800px);
 		opacity: .5;
 	}
 }
