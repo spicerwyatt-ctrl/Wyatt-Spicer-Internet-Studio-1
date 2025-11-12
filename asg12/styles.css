@@ -76,6 +76,7 @@ h2 {
   background-color: #131C98;
   color: #6EB314;
   padding: 8px;
+  border: 4px #ee6e05;
   border-radius: 5px;
   font-size: 1rem;
 }
