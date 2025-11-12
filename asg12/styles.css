@@ -69,6 +69,13 @@ h2 {
   boarder-radius: 5x;
 }
 
+.movie-description {
+  background-color: #E6E6E6;
+  color: #000000;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 1rem;
+
 /* THIS IS MY COMMENT */
 
 html {
