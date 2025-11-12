@@ -44,7 +44,7 @@ h2 {
 /* CSS Grid Container */
 .gridContainer {
   display: grid;
-  border: 4px gray solid;
+  border: 4px #ee6e05;
   border-radius: 5px;
   width: 400px;
  height: 500px;
@@ -53,10 +53,10 @@ h2 {
 
 /* CSS Grid Items */
 .box {
-  background-color: dodgerblue;
-  color: black;
+  background-color: #6eb314;
+  color: #131c98;
   border-radius: 5px;
-  border: 4px royalblue solid;
+  border: 4px #B96624;
 }
 
 html {
