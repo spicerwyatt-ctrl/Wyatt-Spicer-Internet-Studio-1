@@ -63,6 +63,12 @@ h2 {
   font-weight: bold;
 }
 
+.box img {
+  width: 300px;
+  height: auto;
+  boarder-radius: 5x;
+}
+
 /* THIS IS MY COMMENT */
 
 html {
