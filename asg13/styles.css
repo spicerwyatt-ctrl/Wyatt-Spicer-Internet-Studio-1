@@ -1,1 +1,336 @@
+Insert all your glorious CSS styles below! */
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.2;
+}
+ol { 
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+ul {
+  padding-left: 1.4em;
+  list-style: square;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} 
+/* end reset browser styles */
 
+
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Berkshire Swash';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/berkshire-swash-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/biryani-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* black-han-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/black-han-sans-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* amiko-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/amiko-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* boldonse-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Boldonse';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/boldonse-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* changa-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Changa One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/changa-one-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+.berkshire-swash-regular {
+	font-family: "Berkshire Swash", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+html {
+	background-color: #EDF6F9
+}
+
+#backgroundtiles {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: -100;
+	background-color: #83C5BE;
+	background-image: url("images/fixedTreeTile.png");
+	background-repeat: repeat;
+	background-size: 100px 100px;
+	animation: crawlTiles 10s linear 1;
+}
+
+#wave {
+	position: fixed;
+	bottom: -170;
+	left: -1800px;
+	width: 2400px;
+	height: 1400px;
+	z-index: 100;
+	background-image: url("images/waveslide.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom;
+	animation: slideWave 3.25s ease-in-out 1 forwards;
+}
+
+#wave2 {
+	position: fixed;
+	bottom: -190;
+	right: 2800px;
+	width: 2160px;
+	height: 1260px;
+	z-index: 100;
+	background-image: url("images/wave.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom;
+	animation: slideWave2 3.25s ease-in-out 1 backwards;
+}
+
+h3 {
+	font-family: "Berkshire Swash";
+}
+
+p, ul {
+	font-family: 'Amiko';
+}
+
+body {
+	background-color: #EDF6F9;
+	border: 3px solid #006D77;
+	box-shadow: 0 0 15px 5px rgba(44,82,100,.75);
+	max-width: 760px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+}
+
+h1 {
+	font-size: 2.75em;
+	font-family: 'Changa One', "Changa One", Times, serif;
+	font-weight: strong;
+	text-align:center;
+	letter-spacing: 1px;
+	color: #EDF6F9;
+	text-shadow: 0 2px 6px rgba(0,0,0,.15);
+	text-transform: uppercase;
+	background-color: #E29578;
+	padding: 5px 15px 2px 15px;
+	margin: 0 -15px 20px -15px;
+}
+h2 {
+	font-size: 1.5em;
+	font-family: "Berkshire Swash", Arial, Helvetica, sans-serif;
+	color: #006D77;
+	border-top: 2px dotted #83C5BE;
+	border-bottom: 2px dotted #83C5BE;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 15px 0 5px 0;
+	overflow: hidden;
+}
+
+img {
+	display: block;
+	margin: 12px auto;
+	max-width: 100%;
+	height: auto;
+	border: 3px solid #006D77;
+	box-shadow: 0 0 15px 5px rgba(44,82,100,.75);
+}
+
+.sidebar {
+	width: 30%;
+	float: right;
+	margin: 10px;
+	background-color: #FFFFFF;
+	padding: 10px 20px;
+	border: 1px dotted #83C5BE;
+	border-top: 20px solid #E29578;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+
+.sidebar h2 {
+	border: none;
+	margin-top: 0;
+	padding: 0;
+}
+
+.note {
+	color: #222;
+	font-family: 'Amiko';
+	border: 5px solid #83c5be;
+	background-color: #ffddd2;
+	margin-top: 25px;
+	margin-bottom: 35px;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.note strong {
+	color: #006D77;
+}
+
+article {
+	max-width: 760px;
+	margin: 0 auto 35px;
+	border: 2px solid #83C5BE;
+	background-color: #FFDDD2;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+#logo {
+	position: relative;
+	font-family: 'Boldonse', Arial, Helvetica, sans-serif;
+	font-size: 5.5em;
+	font-weight: 800;
+	color: #FFD166;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 30px;
+	background-color: #004E89;
+	border-radius: 0 0 10px 10px;
+	padding: 15px;
+	animation: slideSPI 2s ease-out 1 forwards;
+	z-index: 2;
+}
+.nav {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+	background-color: #006D77;
+	padding: 10px 0;
+	border-bottom: 3px solid #83C5BE;
+	border-radius: 10px;
+}
+
+.nav li {
+	list-style-type: none;	
+}
+
+.nav li a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Amiko', sans-serif;
+	font-weight: 700;
+	color: #EDF6F9;
+	margin: 6px;
+	padding: 10px 16px;
+	background-color: #E29578;
+	border: 2px solid #83C5BE;
+	border-radius: 8px;
+}
+
+.nav li a:hover {
+	background-color: #83C5BE;
+	color: #102A31;
+	border-color: #E29578;
+	transform: translateY(-2px);
+} 
+
+.site-footer {
+	margin-top: 25px;
+	padding: 15px 25px;
+	background-color: #006D77;
+	color: #EDF6F9;
+	border-top: 3px solid #83C5BE;
+	border-radius: 10px;
+	text-align: left;
+}
+
+@keyframes slideSPI {
+	from{
+		transform: translateY(-150%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+	
+@keyframes crawlTiles {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 100px 0;
+	}
+}
+
+@keyframes slideWave {
+	from {
+		transform: translateX(3500px);
+		opacity: .8;
+	}
+	to {
+		transform: translateX(-1800px);
+		opacity: 1;
+	}
+}
+
+@keyframes slideWave2 {
+	from {
+		transform: translateX(-1800px);
+		opacity: .8;
+	}
+	to {
+		transform: translateX(7500px);
+		opacity: 1;
+	}
+}
+
+		
+
+
+
+	
