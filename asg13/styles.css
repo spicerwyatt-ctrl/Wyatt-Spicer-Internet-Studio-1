@@ -19,23 +19,23 @@
 body {
   margin: center;
   border: 0;
-  font-family: "Cairo", 'cairo', Helvetica, Arial, sans-serif;
+  font-family: "McLaren", 'mclaren', Helvetica, Arial, sans-serif;
 }
 
 h1 {
   font-size: 3.815rem;
-  font-family: "Crushed", 'crushed', Helvetica, Arial, sans-serif;
+  font-family: "Glory", 'glory', Helvetica, Arial, sans-serif;
   color: #B96624;
 }
 
 h2 {
   font-size: 3.052rem;
-  font-family: "Crushed", 'crushed', Helvetica, Arial, sans-serif;
+  font-family: "Glory", 'glory', Helvetica, Arial, sans-serif;
 }
 
 p {
   font-size: 1rem;
-  font-family: "Cairo", 'Cairo', Helvetica, Arial, sans-serif;
+  font-family: "McLaren", 'mclaren', Helvetica, Arial, sans-serif;
 }
 
 h1,
